@@ -12,12 +12,12 @@ function Projects() {
     {
       title: "PCM Buddy",
       desc: "AI powered educational chatbot built using Django and LLMs to help students learn Physics, Chemistry, and Mathematics.",
-      github: "https://github.com/yourusername/pcm-buddy",
+      github: "https://github.com/diljithmon170/PCM-Buddy",
     },
     {
       title: "AI Mentee",
       desc: "AI based learning management system with quizzes, automated content generation, and progress tracking.",
-      github: "https://github.com/yourusername/ai-mentee",
+      github: "https://github.com/diljithmon170/Ai-Mentee",
     },
   ];
 
