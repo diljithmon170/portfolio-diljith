@@ -2,6 +2,7 @@ import { Container } from 'react-bootstrap';
 import proPic from "../assets/pro_pic.jpeg";
 import res from "../assets/Diljith_D_Resume.pdf";
 import '../App.css';
+import { FaEnvelope, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -23,10 +24,12 @@ function Hero() {
 
           <div>
             <p className="hero-contact">
+              <FaEnvelope className="contact-icon" />
               <i className="bi bi-envelope" style={{ color: '#2dd4bf', marginRight: '10px' }}></i>
               diljithmon170@gmail.com
             </p>
             <p className="hero-location">
+              <FaMapMarkerAlt className='contact-icon' />
               <i className="bi bi-geo-alt" style={{ color: '#2dd4bf', marginRight: '10px' }}></i>
               Palakkad, Kerala
             </p>
