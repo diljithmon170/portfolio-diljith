@@ -1,5 +1,6 @@
 import { Container } from 'react-bootstrap';
 import proPic from "../assets/pro_pic.jpeg";
+import res from "../assets/Diljith_D_Resume.pdf";
 import '../App.css';
 
 function Hero() {
@@ -29,11 +30,17 @@ function Hero() {
               <i className="bi bi-geo-alt" style={{ color: '#2dd4bf', marginRight: '10px' }}></i>
               Palakkad, Kerala
             </p>
+            <div className='btn-space'>
             
               <a href='#projects'
               className="github-btn">
             View Projects
           </a>
+            <a href={res}
+              className="github-btn">
+            Download Resume
+          </a>
+          </div>
           </div>
         </div>
 

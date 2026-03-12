@@ -320,6 +320,93 @@ section {
   color:black;
 }
 
+/* EDUCATION SECTION */
+
+.education-section{
+  margin-top:60px;
+  padding:40px 30px;
+  border-radius:12px;
+}
+
+/* Title */
+
+.education-title{
+  text-align:center;
+  font-size:32px;
+  color:#2dd4bf;
+  margin-bottom:40px;
+  position:relative;
+}
+
+.education-title::after{
+  content:"";
+  width:80px;
+  height:2px;
+  background:#2dd4bf;
+  display:block;
+  margin:10px auto 0;
+  opacity:0.6;
+}
+
+/* Education items */
+
+.education-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  padding:20px 10px;
+  border-bottom:1px solid rgba(255,255,255,0.1);
+  transition:all 0.3s ease;
+}
+
+/* Smooth hover effect */
+
+.education-item:hover{
+  transform:translateX(6px);
+  background:rgba(45,212,191,0.05);
+  border-radius:8px;
+}
+
+/* Left text */
+
+.education-left {
+  text-align: left;
+}
+
+.education-left h3 {
+  text-align: left;
+}
+
+.education-left p {
+  text-align: left;
+  margin: 4px 0;
+  color:#94a3b8
+}
+
+/* Lateral entry highlight */
+
+.edu-extra{
+  font-size:14px;
+  margin-left:6px;
+  color:#94a3b8;
+}
+
+/* CGPA */
+
+.cgpa{
+  color:#94a3b8;
+  font-size:14px;
+  text-align: left;
+}
+
+/* Year */
+
+.education-year{
+  color:#94a3b8;
+  font-weight:500;
+  font-size:15px;
+}
+
 .skills {
   min-height: 10vh;
   padding: 80px 20px;
@@ -478,13 +565,20 @@ section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 18px;
   padding: 8px 16px;
   border: 1px solid #2dd4bf;
   color: white;
   text-decoration: none;
   border-radius: 6px;
   transition: 0.3s;
+}
+
+.btn-space {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .github-btn:hover {
