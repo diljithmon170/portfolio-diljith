@@ -668,3 +668,9 @@ section {
 .cert-card a:hover {
   background: #14b8a6;
 }
+
+@media (max-width: 768px) {
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+}
