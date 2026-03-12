@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import proPic from "../assets/pro_pic.jpeg";
+import proPic from "../assets/pro_pic.png";
 import res from "../assets/Diljith_D_Resume.pdf";
 import '../App.css';
 import { FaEnvelope, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
