@@ -610,3 +610,61 @@ section {
   color: #9ca3af;
   font-size: 14px;
 }
+
+/* Certifications Section Grid */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 40px 20px;
+}
+
+/* Certification Card */
+.cert-card {
+  background: #0f172a; /* dark card */
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  border: 1px solid #1e293b;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.cert-card:hover {
+  transform: translateY(-8px);
+  border-color: #2dd4bf;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* Certificate Title */
+.cert-card h3 {
+  font-size: 1.2rem;
+  color: #f1f5f9;
+  margin-bottom: 10px;
+}
+
+/* Issuer */
+.cert-card p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  margin: 5px 0;
+}
+
+/* Credential Button */
+.cert-card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  color: #0f172a;
+  background: #2dd4bf;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Button Hover */
+.cert-card a:hover {
+  background: #14b8a6;
+}

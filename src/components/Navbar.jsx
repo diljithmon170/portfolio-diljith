@@ -9,6 +9,7 @@ function AppNavbar() {
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
     { id: "projects", label: "Projects" },
+    { id: "certifications", label: "Certifications"},
     { id: "experiences", label: "Experiences" },
     { id: "contact", label: "Contact" },
   ];
